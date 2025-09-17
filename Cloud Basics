@@ -1,0 +1,79 @@
+1. Types of Cloud Based on Deployment
+
+These define where the cloud is hosted and who controls it:
+
+Public Cloud
+
+Owned and operated by third-party providers (like AWS, Azure, GCP).
+
+Resources (servers, storage, networking) are shared among multiple customers.
+
+Cost-effective, scalable, but less control.
+✅ Example: AWS EC2, Microsoft Azure, Google Cloud.
+
+Private Cloud
+
+Dedicated infrastructure for one organization.
+
+Can be hosted on-premises or by a third party.
+
+More security, customization, and control.
+✅ Example: VMware, OpenStack, AWS Outposts.
+
+Hybrid Cloud
+
+Combination of public + private clouds, connected for flexibility.
+
+Workloads can move between environments.
+✅ Example: A company stores sensitive data in a private cloud but uses public cloud for scalability.
+
+Multi-Cloud
+
+Using multiple public cloud providers simultaneously (AWS + Azure + GCP).
+
+Avoids vendor lock-in and improves resilience.
+✅ Example: Running databases on AWS but analytics on GCP.
+
+Community Cloud
+
+Shared by multiple organizations with common goals (e.g., government, healthcare).
+
+Costs and infrastructure are shared.
+
+🔹 2. Types of Cloud Based on Service Models
+
+These define what services the cloud provides:
+
+IaaS (Infrastructure as a Service)
+
+Provides virtualized computing resources (servers, storage, networking).
+
+You manage OS, applications; provider manages infrastructure.
+✅ Example: AWS EC2, Azure Virtual Machines, Google Compute Engine.
+
+PaaS (Platform as a Service)
+
+Provides a platform for application development and deployment.
+
+You manage applications; provider manages OS, runtime, and infrastructure.
+✅ Example: AWS Elastic Beanstalk, Google App Engine, Azure App Service.
+
+SaaS (Software as a Service)
+
+Fully managed applications delivered over the internet.
+
+Users just consume the software, no infrastructure or platform management.
+✅ Example: Gmail, Office 365, Salesforce, Zoom.
+
+FaaS / Serverless Computing
+
+Run code in response to events without managing servers.
+
+Pay only for execution time.
+✅ Example: AWS Lambda, Azure Functions, Google Cloud Functions.
+
+✨ In short:
+
+Deployment types = Public, Private, Hybrid, Multi-Cloud, Community
+
+Service models = IaaS, PaaS, SaaS, FaaS
